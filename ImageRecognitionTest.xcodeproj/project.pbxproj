@@ -13,7 +13,7 @@
 		840419F41FA4DBA000B11541 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840419F21FA4DBA000B11541 /* LaunchScreen.storyboard */; };
 		840419FF1FA4DBA000B11541 /* ImageRecognitionTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840419FE1FA4DBA000B11541 /* ImageRecognitionTestTests.swift */; };
 		84041A0A1FA4DBA000B11541 /* ImageRecognitionTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84041A091FA4DBA000B11541 /* ImageRecognitionTestUITests.swift */; };
-		8467F2FA1FA9427900DB7C46 /* HermanMiller.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8467F2F91FA9427900DB7C46 /* HermanMiller.mlmodel */; };
+		8467F2FC1FA94A4200DB7C46 /* HermanMiller.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8467F2FB1FA94A4200DB7C46 /* HermanMiller.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +46,7 @@
 		84041A051FA4DBA000B11541 /* ImageRecognitionTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageRecognitionTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84041A091FA4DBA000B11541 /* ImageRecognitionTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRecognitionTestUITests.swift; sourceTree = "<group>"; };
 		84041A0B1FA4DBA000B11541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8467F2F91FA9427900DB7C46 /* HermanMiller.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = HermanMiller.mlmodel; path = ../HermanMiller/CNN3/HermanMiller.mlmodel; sourceTree = "<group>"; };
+		8467F2FB1FA94A4200DB7C46 /* HermanMiller.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HermanMiller.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +81,7 @@
 				840419FD1FA4DBA000B11541 /* ImageRecognitionTestTests */,
 				84041A081FA4DBA000B11541 /* ImageRecognitionTestUITests */,
 				840419E71FA4DBA000B11541 /* Products */,
-				8467F2F91FA9427900DB7C46 /* HermanMiller.mlmodel */,
+				8467F2FB1FA94A4200DB7C46 /* HermanMiller.mlmodel */,
 			);
 			sourceTree = "<group>";
 		};
@@ -260,7 +260,7 @@
 			files = (
 				840419EC1FA4DBA000B11541 /* ViewController.swift in Sources */,
 				840419EA1FA4DBA000B11541 /* AppDelegate.swift in Sources */,
-				8467F2FA1FA9427900DB7C46 /* HermanMiller.mlmodel in Sources */,
+				8467F2FC1FA94A4200DB7C46 /* HermanMiller.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
